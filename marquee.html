@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marque - Marketing Club</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        /* Marquee Styling */
+        .marquee-container {
+            width: 100%;
+            background-color: #212121;
+            color: #ffffff;
+            padding: 10px 0;
+            font-size: 1.2em;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+        }
+
+        .marquee-text {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scrollText 15s linear infinite;
+        }
+
+        @keyframes scrollText {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Content Section */
+        .content {
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin: 0 20px;
+        }
+
+        .content h2 {
+            font-size: 2em;
+            color: #00796b;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .content .contact-info {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        .contact-info a {
+            color: #00796b;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-info a:hover {
+            color: #ff8c00;
+        }
+
+        /* Image Styling */
+        .content img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #212121;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Marque - Marketing Club</h1>
+    </header>
+
+    <div class="marquee-container">
+        <div class="marquee-text">
+            Welcome to Marque - The Marketing Club at IIM Rohtak! Follow us on Facebook: 
+            <a href="https://www.facebook.com/marque.iimr" target="_blank">www.facebook.com/marque.iimr</a> | 
+            Email: <a href="mailto:marketingclub@iimrohtak.ac.in">marketingclub@iimrohtak.ac.in</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>About Marque</h2>
+        <p>Marque is a platform for students who are passionate about marketing to explore and expand their learning beyond the classroom. The club’s official newsletter, Canvas, sensitizes IIM Rohtak and the larger management community towards the latest happenings in local and global markets and also publishes articles on evolving marketing practices.</p>
+        <p>Marque treats members to invigorating rounds of real-life case studies, selling games, and marketing/advertising strategies. The ultimate champion of these successive rounds is named the “Marketeer of the Year.”</p>
+        
+        <!-- Image Section -->
+        <img src="your-image.jpg" alt="Marque Event" />
+
+        <div class="contact-info">
+            <p>For inquiries, reach us at: 
+                <a href="mailto:marketingclub@iimrohtak.ac.in">marketingclub@iimrohtak.ac.in</a>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Marque - Marketing Club | IIM Rohtak</p>
+    </footer>
+
+</body>
+</html>
